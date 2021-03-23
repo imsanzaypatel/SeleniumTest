@@ -11,8 +11,8 @@ public class FBLogin {
 		System.setProperty("webdriver.gecko.driver","C:/Users/SANJAYPATEL/Downloads/Compressed/selenium-java-3.11.0/geckodriver.exe");
         WebDriver webDriver=new FirefoxDriver();
         webDriver.get("https://www.facebook.com/");
-        webDriver.findElement(By.name("email")).sendKeys("9407939333");
-        webDriver.findElement(By.name("pass")).sendKeys("shiftdel");
+        webDriver.findElement(By.name("email")).sendKeys("xxxxx@gmail.com");
+        webDriver.findElement(By.name("pass")).sendKeys("xxxxx");
         webDriver.findElement(By.id("loginbutton")).click();
         
         String url=webDriver.getCurrentUrl();
